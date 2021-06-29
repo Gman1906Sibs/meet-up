@@ -6,4 +6,28 @@
   .links {
     @apply text-gray-100 pl-3 pr-3 text-xs md:text-lg hover:cursor-pointer transition duration-150 transform hover:scale-110 hover:text-red-200;
   }
+
+  .formInput {
+    @apply py-1 px-3 focus:outline-none border mt-1 rounded-md;
+  }
+
+  .mainContainer {
+    @apply flex flex-col items-center pt-3 bg-red-50;
+  }
+
+  .headings {
+    @apply text-2xl md:text-4xl px-4 md:p-4 left-auto;
+  }
+
+  .card {
+    @apply bg-white pb-3 rounded-lg flex flex-col  max-w-full mb-10 shadow-lg;
+  }
+
+  .formDiv {
+    @apply flex flex-col mt-1;
+  }
+
+  .btn {
+    @apply p-2 bg-red-400 text-white rounded-md hover:bg-red-600;
+  }
 }

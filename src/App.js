@@ -1,6 +1,6 @@
 import { Route, Switch } from "react-router-dom";
 import AllEvents from './components/pages/AllEvents';
-import Favorites from './components/pages/Favorites';
+import Favorites from "./components/pages/Favorites";
 import NewEvents from './components/pages/NewEvents';
 import Header from "./components/layout/Header";
 

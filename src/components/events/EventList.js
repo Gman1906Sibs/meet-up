@@ -2,8 +2,8 @@ import EventItem from "./EventItem";
 
 function EventList({ events }) {
     return (
-        <div>
-            {events.map(event => 
+        <div className="" >
+            {events.map((event) => (
                 <EventItem 
                     key={event.id}
                     id={event.id}
@@ -12,7 +12,7 @@ function EventList({ events }) {
                     address={event.address}
                     description={event.description}
                 />
-            )}
+            ))}
         </div>
     )
 }
